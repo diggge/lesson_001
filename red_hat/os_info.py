@@ -1,6 +1,10 @@
+#-*- coding: utf-8 -*-
+
+#Нужно собрать информацию об операционной системе и версии пайтона
+
 #TODO запустить этот скрипт а закомитить результат его работы
 
-import ...
+import...
 
 info = 'OS info is \n {} \n\n Python version is {} {}'.format (
     platform.uname(), sys.version, platform.architecture())
