@@ -4,7 +4,8 @@
 
 #TODO запустить этот скрипт а закомитить результат его работы
 
-import...
+import sys
+import platform
 
 info = 'OS info is \n {} \n\n Python version is {} {}'.format (
     platform.uname(), sys.version, platform.architecture())
